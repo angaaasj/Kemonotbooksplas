@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8" dir="rtl">
+    <title>مذكراتي - عبدالحكيم الجويري</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>أوراق عبدالحكيم</h1>
+</header>
+
+<div class="container">
+    <!-- البطاقة الجاهزة -->
+    <a href="kemo.html" class="card">استنزاف عاطفي</a>
+
+    <!-- البطاقات غير الجاهزة -->
+    <div class="card" onclick="showMessage()">مذكرة مغلقة 2</div>
+    <div class="card" onclick="showMessage()">مذكرة مغلقة 3</div>
+    <div class="card" onclick="showMessage()">مذكرة مغلقة 4</div>
+    <div class="card" onclick="showMessage()">مذكرة مغلقة 5</div>
+</div>
+
+<script>
+function showMessage() {
+    alert("هذه المذكرة محفوظة، عبدالحكيم 😎\nلم يسمح لك بمشاهدتها بعد");
+}
+</script>
+
+</body>
+</html>
